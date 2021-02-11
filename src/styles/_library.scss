@@ -23,6 +23,8 @@
 
 .library-song{
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     padding: 1rem 2rem 1rem 2rem;
     cursor: pointer;
     transition: background-color .5s ease-in;
@@ -30,7 +32,6 @@
         width: 30%;
         min-height: 0;
         min-width: 0;
-        align-items: flex-start;
     }
     &:hover{
         background-color: rgb(207, 207, 207);
